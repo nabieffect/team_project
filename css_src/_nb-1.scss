@@ -1,0 +1,374 @@
+.nb-1-main-image:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pictureCommon{
+  width: 1920px;
+  text-indent: -99999px;
+
+  .wrapCommon{
+    width:320px;
+    height:290px;
+    float:left;
+    position:relative;
+
+    :nth-child(1){
+      z-index: 3;
+    }
+    :nth-child(2){
+      z-index: 2;
+    }
+    :nth-child(3){
+      z-index: 1;
+    }
+
+    .puzzle{
+      width: 100%;
+      height:100%;
+      position:absolute;
+    }
+  }
+}
+
+.nb-1-main-image{
+  //.test{
+  //  display: none;
+  //}
+
+  //.ex{
+  //  display: none;
+  //}
+
+  .same{
+    background: url(../images/line3/puzzle_image_part3_1-1.jpg);
+  }
+
+  .image-wrap-part1{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_1-1.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-1.jpg);
+    }
+
+    &-piece3{
+      background-position:0 0;
+    }
+  }
+
+  .image-wrap-part2{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_1-2.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-2.jpg);
+    }
+
+    &-piece3{
+      background-position: -320px 0;
+    }
+  }
+
+  .image-wrap-part3{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_1-3.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-3.jpg);
+    }
+
+    &-piece3{
+      background-position: -640px 0;
+    }
+  }
+
+  .image-wrap-part4{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_1-4.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-4.jpg);
+    }
+
+    &-piece3{
+      background-position: -960px 0;
+    }
+  }
+
+  .image-wrap-part5{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_1-5.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-5.jpg);
+    }
+
+    &-piece3{
+      background-position: -1280px 0;
+    }
+  }
+
+  .image-wrap-part6{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_1-6.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-6.jpg);
+    }
+
+    &-piece3{
+      background-position: -1600px 0;
+    }
+  }
+
+  .image-wrap-part7{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_2-1.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_2-1.jpg);
+    }
+
+    &-piece3{
+      background-position: 0 -290px;
+    }
+  }
+
+  .image-wrap-part8{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_2-2.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_2-2.jpg);
+    }
+
+    &-piece3{
+      background-position: -320px -290px;
+    }
+  }
+
+  .image-wrap-part9{
+    position: relative;
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_2-3.jpg);
+    }
+
+    &-piece2{
+      background:url(../images/line2/puzzle_image_part2_2-2.jpg) 100% 0;
+    }
+
+    &-piece3{
+      background-position: -640px -290px;
+    }
+  }
+
+  .image-wrap-part10{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_2-4.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-4.jpg) 0 100%;
+    }
+
+    &-piece3{
+      background-position: -960px -290px;
+    }
+  }
+
+  .image-wrap-part11{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_2-5.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_1-5.jpg) 0 100%;
+    }
+
+    &-piece3{
+      background-position: -1280px -290px;
+    }
+  }
+
+  .image-wrap-part12{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_2-6.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_2-6.jpg);
+    }
+
+    &-piece3{
+      background-position: -1600px -290px;
+    }
+  }
+
+  .image-wrap-part13{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_3-1.jpg);
+    }
+
+    &-piece2{
+      background:url(../images/line2/puzzle_image_part2_2-1.jpg) 0 100%;
+    }
+
+    &-piece3{
+      background-position: 0 -580px;
+    }
+  }
+
+  .image-wrap-part14{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_3-2.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_2-2.jpg) 0 100%;
+    }
+
+    &-piece3{
+      background-position: -320px -580px;
+    }
+  }
+
+  .image-wrap-part15{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_3-3.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_2-2.jpg) 100% 100%;
+    }
+
+    &-piece3{
+      background-position: -640px -580px;
+    }
+  }
+
+  .image-wrap-part16{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_3-4.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_3-4.jpg);
+    }
+
+    &-piece3{
+      background-position: -960px -580px;
+    }
+  }
+
+  .image-wrap-part17{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_3-5.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_3-5.jpg);
+    }
+
+    &-piece3{
+      background-position: -1280px -580px;
+    }
+  }
+
+  .image-wrap-part18{
+
+    &-piece1{
+      background: url(../images/line1/puzzle_image_part1_3-6.jpg);
+    }
+
+    &-piece2{
+      background: url(../images/line2/puzzle_image_part2_2-6.jpg) 0 100%;
+    }
+
+    &-piece3{
+      background-position: -1600px -580px;
+    }
+  }
+}
+
+.inner-box{
+  width: 980px;
+  margin:0 auto;
+}
+
+.main-content-wrap{
+  margin-top:150px;
+
+  &-title{
+    width:600px;
+    border-bottom:2px solid #a1a1a1;
+    padding:0 0 10px 2px;
+    box-sizing: border-box;
+
+    font:{
+      size:30px;
+      weight: bold;
+    }
+  }
+
+  &-list{
+    margin-top:20px;
+
+    &:after{
+      content:"";
+      display:block;
+      clear: both;
+    }
+  }
+
+  &-item{
+    float:left;
+    margin-right:16px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    &-link{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+    &-img{
+      display: block;
+    }
+
+    &-title{
+      font-size:18px;
+      margin:20px 0 50px 0;
+    }
+  }
+}
+

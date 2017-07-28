@@ -1,0 +1,119 @@
+.title-pic-nb-4-1{
+  background-image: url(../images/nb-4-1-title.png);
+  width:100%;height:600px;
+}
+
+
+.title-pic-fixed-nb-4-1{
+  background:url(../images/nb-4-1-title-fixed.png) no-repeat;
+  width:100%;height:100px;
+  position:fixed;top:-100px;left:0;
+  z-index:90;
+  opacity:0;
+  transition:all .3s ease-out;
+}
+
+.title-pic-fixed-nb-4-1.display{
+  top:0;
+  opacity: 0.8;
+}
+
+
+/**************************************/
+
+
+.menu-fixing{
+  position:fixed;top:0;
+}
+
+
+
+.sub-title{
+  margin-top:50px;
+}
+
+
+.sub-title:before{
+  content:"";display: block;
+  width:90px;height:10px;
+  background:#f9cd16;
+  margin-bottom:10px;
+}
+
+.inner-box-nb-4-1{
+  width:980px;
+  margin:0 auto;
+}
+
+
+
+
+.sonyeosang-wrap:after{
+content:"";display:block;clear:both;
+}
+
+.paragraph-wrap2{
+  width:410px;
+  margin-top:50px;
+  float:left;
+}
+
+.paragraph-wrap2+img{
+  float:right;
+}
+
+
+
+.paragraph-wrap2>p{
+  margin-bottom:30px;
+  font-size:18px;
+  line-height:24px;
+}
+
+
+
+
+/*소녀상 지도*/
+.googlemap-wrap{
+  position:relative;
+}
+
+.googlemap{
+  padding:0 auto;
+  position:absolute;
+  left:calc(50% - 324px);top:165px;
+}
+
+
+
+.googlemap-cover{
+  content:"";display:block;
+  position:absolute;top:165px;left:166px;
+  width:648px;height:415px;
+  z-index:10;
+
+}
+
+
+.googlemap-cover:hover{
+  background-color:black;
+  opacity:0.5;
+  z-index:90;
+  /*transition:opacity 1s ease-out;*/
+}
+
+
+
+.googlemap-serch-text{
+  color:white;
+  width:270px;
+  font-size:24px;
+  position:absolute;top:290px;left:300px;
+  z-index:90;
+  display:none;
+}
+
+
+.show-text{
+  display:block;
+}

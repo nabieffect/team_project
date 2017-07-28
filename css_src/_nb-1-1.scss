@@ -1,0 +1,57 @@
+.nb-1-1-main-in-image{
+  width:100%;
+  height:600px;
+  background: url(../images/nb_1-1_main_image.png);
+}
+
+.title-pic-fixed-nb-1-1{
+  background: url(../images/nb-1-1-title-fixed.png) no-repeat;
+  width:100%;height:100px;
+  position:fixed;top:-100px;left:0;
+  z-index:90;
+  opacity:0;
+  transition:all .3s ease-out;
+}
+
+.title-pic-fixed-nb-1-1.display{
+  top:0;
+  opacity: 0.8;
+}
+
+.section-background{
+  width: 100%;
+  height: 100%;
+  background:url(../images/nb_1-1_background_image.png) no-repeat fixed;
+}
+
+.user-reply{
+  margin-top:150px;
+
+  &-text{
+    width:895px;
+    height:95px;
+    background:#c0c0c0;
+    border:0;
+    box-sizing: border-box;
+  }
+
+  &-button{
+    width:85px;
+    height:95px;
+    border:0;
+    background: #9f9f9f;
+  }
+
+}
+
+.sns-wrap{
+  background: url(../images/nb_1-1_image_sprite.png);
+
+  &-item{
+    &:nth-child(1){
+
+    }
+  }
+
+}
+

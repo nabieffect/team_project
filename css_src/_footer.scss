@@ -1,0 +1,29 @@
+.footer{
+  height:285px;
+  background: #ffe167;
+  margin-top: 100px;
+
+  &-wrap{
+    width:727px;
+    margin:0 auto;
+    padding-top:72px;
+    box-sizing: border-box;
+    text-align: center;
+
+    .site-wrap{
+
+      @extend %clearfix;
+
+      &-item{
+        width:33.33%;
+        text-align: center;
+        margin:40px 0;
+        float:left;
+      }
+    }
+
+    .copyright{
+      margin-top:40px;
+    }
+  }
+}

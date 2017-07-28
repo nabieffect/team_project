@@ -1,0 +1,304 @@
+//겹칠거 같음
+
+.inner-box {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  &2 {
+    width: 100%;
+    height: 2680px;
+    background: url("../images/poster.jpg");
+    opacity: 0.8;
+  }
+}
+
+.title {
+  padding-top: 200px;
+  font-size: 30px;
+
+  &-sub {
+    padding-top: 35px;
+    color: #717171;
+    font-size: 18px;
+  }
+}
+
+.box{
+  position: absolute;
+  content: "";
+  width: 140px;
+  border: 2px solid #f9cd16;
+  top: 180px;
+
+  &2{
+    position: absolute;
+    content: "";
+    width: 108px;
+    border: 2px solid #f9cd16;
+    top: 1082px;
+  }
+
+  &-text{
+    position:relative;
+    content:"";
+    width:100%;
+    height:600px;
+    border:5px solid blue;
+    margin-top: 50px;
+    &1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-left: 52%;
+      padding-top: 16%;
+      width: 45%;
+    }
+  }
+}
+
+//
+
+.wt70{
+  width: 70%;
+}
+
+.text-right{
+  text-align:right;
+}
+
+.text-left{
+  text-align:left;
+}
+
+.pd50{
+  padding-top:50px;
+}
+
+.pd300{
+  padding-top:300px;
+}
+.pd-left300{
+  padding-left: 296px;
+}
+
+//
+
+  .title-pic{
+
+    &-1{
+      background: url(../images/top.png) no-repeat;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      /* top: -100px; */
+      left: 0;
+      z-index: 90;
+      /* opacity: 0; */
+      transition: all .3s ease-out;
+    }
+    &-2{
+      background: url(../images/top-2.png) no-repeat;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      /* top: -100px; */
+      left: 0;
+      z-index: 90;
+      /* opacity: 0; */
+      transition: all .3s ease-out;
+    }
+    &-3{
+      background: url(../images/top-3.png) no-repeat;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      /* top: -100px; */
+      left: 0;
+      z-index: 90;
+      /* opacity: 0; */
+      transition: all .3s ease-out;
+    }
+    &-4{
+      background: url(../images/top-4.png) no-repeat;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      /* top: -100px; */
+      left: 0;
+      z-index: 90;
+      /* opacity: 0; */
+      transition: all .3s ease-out;
+    }
+    &-5{
+      background: url(../images/top.png) no-repeat;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      /* top: -100px; */
+      left: 0;
+      z-index: 90;
+      /* opacity: 0; */
+      transition: all .3s ease-out;
+    }
+
+  }
+
+
+
+  .title-pic-fixed-nb-5-1.display{
+    top:0;
+    opacity: 0.8;
+  }
+
+
+
+.title-pic{
+
+  &1 {
+    background: url("../images/top-2.png");
+    height: 100px;
+  }
+
+  &2{
+    background: url("../images/top-2.png");
+    height:100px;
+  }
+
+  &3{
+    background: url("../images/top-3.png");
+    height:100px;
+  }
+  &4{
+    background: url("../images/top-4.png");
+    height:100px;
+  }
+  &5{
+    background: url("../images/top-5.png");
+    height:100px;
+  }
+}
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.text{
+  &-top{
+    position: absolute;
+    top: 37px;
+    left: 50%;
+  }
+  &-title{
+    font-family: "Her-Leeoksun", serif;
+    font-size: 50px;
+  }
+}
+
+
+.image {
+  &-top {
+    top: 0;
+    width: 100%;
+  }
+  &-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  &-left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    &2 {
+      position: absolute;
+      top: 500px;
+      left: 270px;
+      content: "";
+      opacity: 0.5;
+    }
+    &3 {
+      position: absolute;
+      content: "";
+      top: 120%;
+    }
+  }
+  &-right {
+    position: absolute;
+    content: "";
+    left: 1316px;
+    top: 445px;
+    &2 {
+      position: absolute;
+      top: 170px;
+      left: 1171px;
+      content: "";
+      opacity: 0.5;
+    }
+    &3 {
+      position: absolute;
+      top: 1070px;
+      left: 1170px;
+      content: "";
+    }
+  }
+  &-size {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
+.btn-shopping{
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #333;
+  display: block;
+  line-height: 53px;
+  text-align: center;
+  background: #d9d9df;
+  position: relative;
+  top: -150px;
+  left: 62%;
+}
+
+
+.youtubeWrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.youtubeWrap iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top:50px;
+}
+
+.nb{
+  &-5-1-image{
+    &-left{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 60%;
+      content: "";
+      left: 80%;
+    }
+    &-right{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 170%;
+      content: "";
+    }
+  }
+}
