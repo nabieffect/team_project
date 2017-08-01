@@ -1,6 +1,7 @@
 .nb-1-1-main-in-image{
   width:100%;
   height:600px;
+  display: block;
   background: url(../images/nb_1-1_main_image.png);
 }
 
@@ -20,12 +21,14 @@
 
 .section-background{
   width: 100%;
-  height: 100%;
-  background:url(../images/nb_1-1_background_image.png) no-repeat fixed;
+  height: 1522px;
+  background:url(../images/nb_1-1_background_image.png) no-repeat bottom;
+  padding:150px 0 100px 0;
+  box-sizing: border-box;
 }
 
 .user-reply{
-  margin-top:150px;
+  //margin-top:150px;
 
   &-text{
     width:895px;
@@ -45,13 +48,175 @@
 }
 
 .sns-wrap{
-  background: url(../images/nb_1-1_image_sprite.png);
+  @extend %clearfix;
 
   &-item{
+    background: url(../images/nb_1-1_image_sprite.png) no-repeat;
+    text-indent:-99999em;
+    float:left;
+    margin:16px 35px 0 5px;
+
     &:nth-child(1){
+      width:35px;
+      height:32px;
+      padding-top:4px;
+      background-position: 0 4px;
+    }
+
+    &:nth-child(2){
+      width:45px;
+      height:41px;
+      background-position:-36px 0;
+    }
+
+    &:nth-child(3){
+      width:22px;
+      height:42px;
+      background-position:-82px 0;
+    }
+
+    &:nth-child(4){
+      width:41px;
+      height:37px;
+      background-position:-105px 3px;
+      padding-top:3px;
+    }
+
+    &:nth-child(5){
+      width:39px;
+      height:41px;
+      background-position:-147px 1px;
+      padding-top:1px;
+    }
+
+    &:nth-child(6){
+      width:36px;
+      height:36px;
+      background-position:-187px 3px;
+      padding-top:3px;
+    }
+  }
+}
+
+.reply-wrap{
+  margin-top:60px;
+  font-size: 18px;
+  line-height: 24px;
+  position:relative;
+
+  &-item1{
+    height:316px;
+    background: #f9cd16;
+
+    &-writer{
 
     }
   }
 
+  &-item2{
+    height:495px;
+    background:#cccccc;
+    left:332px;
+  }
+
+  &-item3{
+    height:570px;
+    background:#cccccc;
+    left:664px;
+
+    .in-wrap-manager{
+      width:246px;
+      height:350px;
+      background: #f9cd16;
+      position:absolute;
+      bottom:35px;
+      padding:5px;
+      box-sizing: border-box;
+
+      &:before{
+        content:"";
+        display: block;
+        width:48px;
+        height:47px;
+        background: url(../images/nb_1-1_image_sprite.png) no-repeat -126px -42px;
+        float:left;
+      }
+
+      &-reply{
+        margin:15px 0 40px 60px;
+      }
+    }
+  }
+
+  &-item4{
+    height:360px;
+    background:#cccccc;
+    top:332px;
+  }
+
+  &-item5{
+    height:495px;
+    background:#cccccc;
+    top:511px;
+    left:332px;
+  }
+
+  &-item6{
+    height:360px;
+    background:#cccccc;
+    top:586px;
+    left:664px;
+  }
 }
 
+.nb-1-1-width-common{
+  width:316px;
+  position:absolute;
+  padding:35px;
+  box-sizing: border-box;
+}
+
+.reply-wrap-item-writer{
+  float:left;
+}
+
+.reply-wrap-item-icon{
+  float:right;
+  text-indent:-99999em;
+  background: url(../images/nb_1-1_image_sprite.png) no-repeat;
+}
+
+.talk{
+  width:30px;
+  height:29px;
+  background-position: 0 -43px;
+}
+
+.facebook{
+  width:15px;
+  height:30px;
+  background-position: -31px -43px;
+}
+
+.naver{
+  width:24px;
+  height:23px;
+  background-position: -47px -43px;
+}
+
+.twitter{
+  width:28px;
+  height:26px;
+  background-position: -72px -43px;
+}
+
+.instagram{
+  width:24px;
+  height:26px;
+  background-position: -101px -43px;
+}
+
+.reply-wrap-item-text{
+  display: inline-block;
+  margin-top:40px;
+}
