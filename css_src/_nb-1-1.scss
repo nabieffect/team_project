@@ -28,13 +28,16 @@
 }
 
 .user-reply{
-  //margin-top:150px;
+
+  @extend %clearfix;
 
   &-text{
     width:895px;
     height:95px;
     background:#c0c0c0;
     border:0;
+    float:left;
+    padding:0 0 0 18px;
     box-sizing: border-box;
   }
 
@@ -43,6 +46,8 @@
     height:95px;
     border:0;
     background: #9f9f9f;
+    float:left;
+    padding:0;
   }
 
 }
