@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b1aaea6-c8b1-4f1d-9392-2f29e57a19b1" name="Default" comment="" />
+    <list default="true" id="9b1aaea6-c8b1-4f1d-9392-2f29e57a19b1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/comic-background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js_src/nb-4-5-2.js" />
+      <change type="DELETED" beforePath="D:\수업자료\front_end\team_project\.idea\jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\수업자료\front_end\team_project\.idea\libraries\team_project_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\수업자료\front_end\team_project\.idea\misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-1.html" afterPath="$PROJECT_DIR$/html/NB-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-1.html" afterPath="$PROJECT_DIR$/html_src/NB-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-2-2.html" afterPath="$PROJECT_DIR$/html/NB-4-2-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-4-2-2.html" afterPath="$PROJECT_DIR$/html_src/NB-4-2-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-3-2.html" afterPath="$PROJECT_DIR$/html/NB-4-3-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-4-3-2.html" afterPath="$PROJECT_DIR$/html_src/NB-4-3-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-4-2.html" afterPath="$PROJECT_DIR$/html/NB-4-4-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-4-4-2.html" afterPath="$PROJECT_DIR$/html_src/NB-4-4-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-5-2.html" afterPath="$PROJECT_DIR$/html/NB-4-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-4-5-2.html" afterPath="$PROJECT_DIR$/html_src/NB-4-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-5-2.html" afterPath="$PROJECT_DIR$/html/NB-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-5-2.html" afterPath="$PROJECT_DIR$/html_src/NB-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_nb-2-1.scss" afterPath="$PROJECT_DIR$/css_src/_nb-2-1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_nb-2-2-2.scss" afterPath="$PROJECT_DIR$/css_src/_nb-2-2-2.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_nb-4-1.scss" afterPath="$PROJECT_DIR$/css_src/_nb-4-1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_nb-4-2-2_5-2.scss" afterPath="$PROJECT_DIR$/css_src/_nb-4-2-2_5-2.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_nb-5-1.scss" afterPath="$PROJECT_DIR$/css_src/_nb-5-1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/function.js" afterPath="$PROJECT_DIR$/js/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js_src/nb-2-2-2.js" afterPath="$PROJECT_DIR$/js_src/nb-2-2-2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/team_project.iml" afterPath="$PROJECT_DIR$/.idea/team_project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="team_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,6 +118,9 @@
         <option value="Html5" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -346,11 +378,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="12" width="1620" height="1003" extended-state="0" />
-    <editor active="true" />
+    <frame x="122" y="12" width="1620" height="1003" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15992415" sideWeight="0.41616404" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15992415" sideWeight="0.58383596" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15992415" sideWeight="0.58383596" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -463,13 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/NB-4-2-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -732,6 +757,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.24">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/NB-4-2-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35096774">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

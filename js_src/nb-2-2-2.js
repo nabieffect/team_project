@@ -40,5 +40,20 @@ $(function(){
 
 
 
+});
+
+//gnb 스크롤 (200px)이후 메뉴그림 고정
+
+$(window).on('scroll',function(){
+
+    var scrollValue=$(window).scrollTop();
+
+    if(scrollValue >=200){
+        $('.title-pic-fixed-nb-2-2-2').addClass('display');
+    }
+
+    if(scrollValue<200){
+        $('.title-pic-fixed-nb-2-2-2').removeClass('display');
+    }
 
 });
