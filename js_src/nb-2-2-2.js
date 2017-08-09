@@ -48,11 +48,11 @@ $(window).on('scroll',function(){
 
     var scrollValue=$(window).scrollTop();
 
-    if(scrollValue >=200){
+    if(scrollValue >=100){
         $('.title-pic-fixed-nb-2-2-2').addClass('display');
     }
 
-    if(scrollValue<200){
+    if(scrollValue<100){
         $('.title-pic-fixed-nb-2-2-2').removeClass('display');
     }
 
