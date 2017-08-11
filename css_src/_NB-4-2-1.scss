@@ -1,0 +1,125 @@
+.nb421{
+
+  &-title {
+    width: 100%;
+
+    &-pic {
+      height: 600px;
+
+      &-fixed {
+        background: url(../images/NB-4-2-1/NB421_top_bar.png) no-repeat;
+        width:100%;height:100px;
+        position:fixed;top:-100px;left:0;
+        z-index:90;
+        opacity:0;
+        transition:all .3s ease-out;
+      }
+      &-fixed.display{
+        top:0;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// 공통영역 /////////////////////////////////
+.nb421-section{
+  text-align: center;
+  position:relative;
+  font-family: 'NanumBarunGothic', 'sans-serif';
+}
+
+.nb421-inner-box{
+  width:960px;
+  margin:0 auto;
+  position:relative;
+}
+
+.nb421-mt50{
+  margin-top: 50px;
+}
+
+.nb421-mt100{
+  margin-top: 100px;
+}
+
+.nb421-mt250{
+  margin-top: 250px;
+}
+
+.nb421-left{
+  float: left;
+}
+
+.nb421-right{
+  float: right;
+}
+//////////////////////////////////////////////
+
+.nb421-news-list{
+
+  &-text{
+    text-align: left;
+  }
+
+  &-img {
+    width: 490px;
+    height: 310px;
+  }
+
+  &-heading{
+    font-size: 24px;
+    padding-bottom: 40px;
+    line-height: 34px;
+    margin-top: 50px;
+  }
+
+  &-paragraph{
+    font-size: 16px;
+  }
+
+  &-item:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.nb421-yellow-bar {
+  position: relative;
+}
+
+.nb421-yellow-bar:before{
+  content: "";
+  display: block;
+
+  position: absolute;
+  width: 350px;
+  height: 5px;
+  background: #f9cd16;
+  margin: 0;
+}
+
+.nb421-search{
+  background: #605b5b;
+  position: absolute;
+  top:750px;
+  left:1225px;
+  cursor: pointer;
+
+  &-button{
+    width: 147px;
+  }
+
+  &-link{
+    width: 76px;
+  }
+}
+
+.nb421-btn-page{
+  content: "";
+  display: block;
+  clear: both;
+
+  text-align: center;
+}

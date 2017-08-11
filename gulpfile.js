@@ -21,7 +21,7 @@ gulp.task( task이름, 함수/익명함수 );
 
 // 새로 고침
 gulp.task('livereload', function(){
-  gulp.src(['hrml/*', 'css/*', 'js/*', '*'])
+  gulp.src(['html/*', 'css/*', 'js/*', '*'])
       .pipe( livereload() );
 });
 

@@ -1,0 +1,68 @@
+.nb322{
+
+  &-title{
+    width: 100%;
+
+    &-pic-fixed{
+      background: url(../images/NB-3-2-1/NB321_top_bar.png) no-repeat;
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      z-index:90;
+      top: 0;
+
+      opacity: 0.8;
+    }
+  }
+  }
+
+// 공통영역
+.nb322-section{
+
+  font-family: 'NanumBarunGothic', 'sans-serif';
+
+  &-heading{
+    font-size: 30px;
+    padding-bottom:20px;
+    margin-top: 264px;
+  }
+
+    &-sub {
+      font-size: 18px;
+    }
+}
+
+
+
+.nb322-inner-box{
+  margin:150px auto 0;
+  width: 960px;
+}
+
+.nb322-yellow-bar {
+  position: relative;
+}
+
+.nb322-yellow-bar:before{
+  content: "";
+  display: block;
+
+  position: absolute;
+  top:-17px;
+  width: 90px;
+  height: 4px;
+  background: #f9cd16;
+  margin: 0;
+}
+
+.nb322-list-image{
+  padding: 50px ;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.nb322-paragraph{
+  line-height: 24px;
+  padding-bottom: 150px;
+}
