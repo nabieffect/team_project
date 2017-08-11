@@ -4,6 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="team_project node_modules" level="project" />
+=======
+    <orderEntry type="library" name="TEAM node_modules" level="project" />
+>>>>>>> c840459c027130bc24d50c347471be46228d42e3
   </component>
 </module>

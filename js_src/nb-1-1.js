@@ -9,11 +9,11 @@ $(function(){
 
     var scrollValue=$(window).scrollTop();
 
-    if(scrollValue >=600){
+    if(scrollValue >=700){
       $('.title-pic-fixed-nb-1-1').addClass('display');
     }
 
-    if(scrollValue<600){
+    if(scrollValue<700){
       $('.title-pic-fixed-nb-1-1').removeClass('display');
     }
 
