@@ -6,7 +6,9 @@
 }
 
 .logo{
-  position:relative;
+  position:absolute;
+  top: 4px;
+  left:10px;
 
   &-link{
     display: block;
@@ -14,20 +16,16 @@
     height:71px;
     background: url(../images/logo.png) no-repeat;
     text-indent: -99999px;
-    position:absolute;
-    top: 4px;
-    left:10px;
   }
 }
 
 .gnb{
   position: relative;
   z-index: 10;
+  width: 842px;
+  margin:0 auto;
 
   &-depth1{
-    display: block;
-    width: 842px;
-    margin:0 auto;
 
     &:after{
       content: "";
@@ -38,34 +36,37 @@
 
     &-item{
       float: left;
-      margin:40px 40px 0 0;
+      padding:40px 40px 0 0;
       position:relative;
 
       &:last-child{
-        margin-right:0;
+        padding-right:0;
       }
     }
 
     &-link{
-
+      display: block;
+      height:40px;
     }
   }
 
   &-depth2{
     width:170px;
-    height: 100px;
+    height: 0;
     background: black;
-    opacity: 0.7;
-    margin: 22px 15px 0 0;
+    margin-right: 15px;
     position:absolute;
     left:-15px;
+    overflow: hidden;
+
 
     &.clearance{
       left:-8px;
     }
 
     &.height230{
-      height:230px;
+      position:absolute;
+      left:-20px;
     }
 
     &-link{
