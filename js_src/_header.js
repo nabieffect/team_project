@@ -24,7 +24,7 @@ $(function(){
     });
   });
 
-  $('.gnb-depth1-link').on('mouseleave', function(){
+  $('.gnb-depth1-item').on('mouseleave', function(){
 
     $('.gnb-depth2').stop().animate({
       height:0
