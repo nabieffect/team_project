@@ -12,7 +12,7 @@
   &2 {
     width: 100%;
     height: 2579px;
-    background: url(../images/poster.jpg);
+    background: url(../images/poster.jpg) center no-repeat;
   }
   &3{
     background:url("../images/comic-background.png");
@@ -23,8 +23,15 @@
 }
 
 
-.sub-title{
-  margin-top:0;
+.sub-title-list{
+  padding-top:50px;
+
+  &:before{
+    content:"";display: block;
+    width:90px;height:4px;
+    background-color:#f9cd16;
+    margin-bottom:10px;
+  }
 }
 
 
@@ -98,6 +105,9 @@
   padding-top:50px;
 }
 
+.pd200{
+  padding-top:200px;
+}
 .pd300{
   padding-top:300px;
 }
@@ -108,6 +118,10 @@
 .pd-tb50{
   padding-top: 50px;
   padding-bottom:50px;
+}
+
+.image1{
+  background:url(../images/movie-1.png) no-repeat;
 }
 
 //
