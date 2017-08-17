@@ -7,7 +7,7 @@
       height: 600px;
 
       &-fixed {
-        background: url(../images/NB-2-2-1/NB221_top_bar.png) no-repeat;
+        background: url(../images/NB-2-2-1/NB221_top_bar.png) no-repeat center;
         width:100%;height:100px;
         position:fixed;top:-100px;left:0;
         z-index:90;
@@ -23,10 +23,17 @@
 }
 
 // 공통영역 /////////////////////////////////
+
+.nb221-title-pic{
+  background:url(../images/NB-2-2-1/NB221_top_image.png) no-repeat center;
+
+}
+
 .nb221-section{
   text-align: center;
   position:relative;
   font-family: 'NanumBarunGothic', 'sans-serif';
+  margin-bottom: 100px;
 }
 
 .nb221-inner-box{
@@ -48,23 +55,26 @@
 }
 
 .nb221-left{
-  float: left;
+  float: left ;
+  text-align:left;
 }
 
 .nb221-right{
   float: right;
 }
+
 //////////////////////////////////////////////
 
 .nb221-news-list{
 
   &-text{
     text-align: left;
+    width: 470px;
   }
 
   &-img {
-    width: 490px;
-    height: 310px;
+    width: 470px;
+    //height: 310px;
   }
 
   &-heading{
@@ -72,10 +82,16 @@
     padding-bottom: 40px;
     line-height: 34px;
     margin-top: 50px;
+
+    text-align:right;
+    &.align-left{text-align:left;}
   }
 
   &-paragraph{
     font-size: 16px;
+
+    text-align:right;
+    &.align-left{text-align:left;}
   }
 
   &-item:after{
@@ -94,36 +110,40 @@
   display: block;
 
   position: absolute;
-  width: 350px;
+  width: 470px;
   height: 5px;
   background: #f9cd16;
   margin: 0;
+
+  left:0;
 }
 
-.nb221-search{
-  background: #605b5b;
+.nb221-search {
+  width: 220px;height:40px;
+  background: #f9cd16;
   position: absolute;
-  top:750px;
-  left:1225px;
+  top:-100px;
+  right: 0;
   cursor: pointer;
 
-  &-button{
-    width: 147px;
+  &-button {
+    width: 147px;    height: 30px;
+    border: 0;
+    margin: 5px 2px 55px 5px;
+    box-sizing: border-box;
+
+    &-link {
+      width: 76px;
+    }
+
+
+    }
   }
 
-  &-link{
-    width: 76px;
+  .nb221-btn-page {
+    content: "";
+    display: block;
+    clear: both;
+
+    left: 50%
   }
-
-  &-input{
-    color: #fff;
-  }
-}
-
-.nb221-btn-page{
-  content: "";
-  display: block;
-  clear: both;
-
-  left:50%
-}
