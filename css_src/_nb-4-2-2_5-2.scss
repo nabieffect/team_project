@@ -11,9 +11,8 @@
   }
   &2 {
     width: 100%;
-    height: 2320px;
-    background: url("../images/poster.jpg");
-    opacity: 0.8;
+    height: 2579px;
+    background: url(../images/poster.jpg);
   }
   &3{
     background:url("../images/comic-background.png");
@@ -22,6 +21,12 @@
     margin:0 auto;
   }
 }
+
+
+.sub-title{
+  margin-top:0;
+}
+
 
 .title {
   padding-top: 200px;
@@ -57,12 +62,13 @@
   }
 
   &-text{
-    position:relative;
-    content:"";
-    width:100%;
-    height:600px;
-    border:5px solid blue;
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 600px;
     margin-top: 50px;
+    border: 5px solid #f9cd16;
+
     &1{
       position: absolute;
       top: 0;
@@ -219,7 +225,6 @@
   }
 }
 
-
 .image {
   &-top {
     top: 0;
@@ -302,7 +307,7 @@
 }
 
 .title-pic-fixed-nb-4-5-2{
-  background: url(../images/top-3.png) no-repeat;
+  background: url(../images/top-3.png) center no-repeat;
   width:100%;height:100px;
   position:fixed;top:-100px;left:0;
   z-index:90;
@@ -316,7 +321,7 @@
 }
 
 .title-pic-fixed-nb-4-4-2{
-  background: url(../images/top-4.png) no-repeat;
+  background: url(../images/top-4.png) center no-repeat;
   width:100%;height:100px;
   position:fixed;top:-100px;left:0;
   z-index:90;
@@ -330,7 +335,7 @@
 }
 
 .title-pic-fixed-nb-4-3-2{
-  background: url(../images/top-5.png) no-repeat;
+  background: url(../images/top-5.png) center no-repeat;
   width:100%;height:100px;
   position:fixed;top:-100px;left:0;
   z-index:90;
@@ -344,7 +349,7 @@
 }
 
 .title-pic-fixed-nb-4-2-2{
-  background: url(../images/top.png) no-repeat;
+  background: url(../images/top.png) center no-repeat;
   width:100%;height:100px;
   position:fixed;top:-100px;left:0;
   z-index:90;
@@ -358,7 +363,7 @@
 }
 
 .title-pic-fixed-nb-5-2{
-  background: url(../images/top-3.png) no-repeat;
+  background: url(../images/top-2.png) center no-repeat;
   width:100%;height:100px;
   position:fixed;top:-100px;left:0;
   z-index:90;
@@ -369,4 +374,10 @@
     top:0;
     opacity: 0.8;
   }
+}
+
+.float{
+  position:absolute;
+  content:"";
+  z-index:10;
 }
