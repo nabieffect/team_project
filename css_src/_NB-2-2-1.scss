@@ -5,6 +5,8 @@
 
     &-pic {
       height: 600px;
+      text-indent:-9999em;
+      background:url(../images/NB-2-2-1/NB221_top_image.png) no-repeat center;
 
       &-fixed {
         background: url(../images/NB-2-2-1/NB221_top_bar.png) no-repeat center;
@@ -24,9 +26,13 @@
 
 // 공통영역 /////////////////////////////////
 
+<<<<<<< HEAD
 .nb221-title-pic{
   background:url(../images/NB-2-2-1/NB221_top_image.png) no-repeat center;
 }
+=======
+
+>>>>>>> 39c786f8ada7055769cb2975aac1d4e37c9fc9b4
 
 .nb221-section{
   text-align: center;
