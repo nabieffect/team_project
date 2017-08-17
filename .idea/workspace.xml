@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88188839-e44e-4fa6-9f64-2e31da19bb17" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\FRONT_END\TEAM\css\style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-1-1.html" afterPath="$PROJECT_DIR$/html/NB-1-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-1.html" afterPath="$PROJECT_DIR$/html/NB-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-2-1.html" afterPath="$PROJECT_DIR$/html/NB-2-1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-2-2-1.html" afterPath="$PROJECT_DIR$/html/NB-2-2-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-2-2-1.html" afterPath="$PROJECT_DIR$/html_src/NB-2-2-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-2-2-2-02.html" afterPath="$PROJECT_DIR$/html/NB-2-2-2-02.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-2-2-2-03.html" afterPath="$PROJECT_DIR$/html/NB-2-2-2-03.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-2-2-2-04.html" afterPath="$PROJECT_DIR$/html/NB-2-2-2-04.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-2-2-2.html" afterPath="$PROJECT_DIR$/html/NB-2-2-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-3-1-1.html" afterPath="$PROJECT_DIR$/html/NB-3-1-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-3-1-1.html" afterPath="$PROJECT_DIR$/html_src/NB-3-1-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-3-1-2.html" afterPath="$PROJECT_DIR$/html/NB-3-1-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-3-2-1.html" afterPath="$PROJECT_DIR$/html/NB-3-2-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/NB-3-2-1.html" afterPath="$PROJECT_DIR$/html_src/NB-3-2-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_NB-2-2-1.scss" afterPath="$PROJECT_DIR$/css_src/_NB-2-2-1.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_NB-3-1-1.scss" afterPath="$PROJECT_DIR$/css_src/_NB-3-1-1.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_NB-3-2-1.scss" afterPath="$PROJECT_DIR$/css_src/_NB-3-2-1.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-3-2-2.html" afterPath="$PROJECT_DIR$/html/NB-3-2-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-1.html" afterPath="$PROJECT_DIR$/html/NB-4-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-2-1.html" afterPath="$PROJECT_DIR$/html/NB-4-2-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-2-2.html" afterPath="$PROJECT_DIR$/html/NB-4-2-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-3-1.html" afterPath="$PROJECT_DIR$/html/NB-4-3-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-3-2.html" afterPath="$PROJECT_DIR$/html/NB-4-3-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-4-1.html" afterPath="$PROJECT_DIR$/html/NB-4-4-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-4-2.html" afterPath="$PROJECT_DIR$/html/NB-4-4-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-5-1.html" afterPath="$PROJECT_DIR$/html/NB-4-5-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-4-5-2.html" afterPath="$PROJECT_DIR$/html/NB-4-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-5-1.html" afterPath="$PROJECT_DIR$/html/NB-5-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-5-2.html" afterPath="$PROJECT_DIR$/html/NB-5-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/NB-6.html" afterPath="$PROJECT_DIR$/html/NB-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_footer.scss" afterPath="$PROJECT_DIR$/css_src/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/_include/_header.html" afterPath="$PROJECT_DIR$/html_src/_include/_header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_header.scss" afterPath="$PROJECT_DIR$/css_src/_header.scss" />
     </list>
     <ignored path="team_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -333,7 +350,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11894737" sideWeight="0.37387964" order="2" side_tool="true" content_ui="tabs" />
