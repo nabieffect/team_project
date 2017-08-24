@@ -2,6 +2,8 @@
 
   &-title{
     width: 100%;
+    background: url(../images/NB-3-1-1/NB311_top_bar.png) no-repeat;
+    height: 100px;
 
     &-pic-fixed{
       background: url(../images/NB-3-1-1/NB311_top_bar.png) no-repeat;
@@ -9,8 +11,14 @@
       height: 100px;
       position: fixed;
       z-index:90;
-      top: 0;
+      top:-100px;
+      left: 0;
+      opacity:0;
+      transition:all .3s ease-out;
+    }
 
+    &-pic-fixed.display{
+      top:0;
       opacity: 0.8;
     }
   }
@@ -20,6 +28,7 @@
 .nb312-section{
 
   font-family: 'NanumBarunGothic', 'sans-serif';
+  margin-bottom: 100px;
 
   &-heading{
     font-size: 30px;
